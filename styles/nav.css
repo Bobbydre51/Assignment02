@@ -11,6 +11,26 @@ body {
     
 }
 
+.icons {
+    display: flex;
+    width: 20px;
+    gap: 10px;
+    color: white;
+}
+
+.icon_logo {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    color: white;
+}
+
+.inner_footer {
+    width: 85vw;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+
 .card {
    display: flex;
    flex-direction: column;
@@ -21,8 +41,7 @@ body {
    border-radius: 10px;
    position: absolute;
    background-color: white;
-   margin-top: 80em;
-   
+   margin-top: 65em;
 }
 
 .div2 {
@@ -31,6 +50,7 @@ body {
     width: 80vw;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 10em;
 }
 
 .button_pink {
@@ -69,7 +89,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
     flex-direction: column;
     height: 100vh;
     margin-bottom: 4em;
@@ -120,7 +139,51 @@ p {
     height: 25px;
 }
 
+.top_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90em;
+    justify-content: space-around;
+}
+
 footer {
     display: flex;
     background-color: hsl(192, 100%, 9%);
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.footerlogo {
+    height: 24px;
+}
+
+.loaction {
+    width: 20px;
+    height: 20px;
+}
+
+.location_text {
+    width: 34em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 15px;
+    font-size: 8px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 8px;
+}
+
+@media (max-width: 480px) and (min-width: 0px) {
+    .div1 {
+        flex-direction: column;
+    }
 }
